@@ -39,6 +39,8 @@ Execute test suite running
 vendor/bin/phpunit -c phpunit.xml.dist
 ```
 
+or you can view travis-ci results [here](https://travis-ci.org/desarrolla2/kata1)
+
 ## Coding Style
 
 We use Symfony2 (Coding Standards)[http://symfony.com/doc/current/contributing/code/standards.html] you can fix your code running before send your PR 
@@ -48,6 +50,8 @@ ant cs
 ```
 
 This step requiere [ant](https://ant.apache.org/) in your system
+
+You can see scrutinizer code rating [here](https://scrutinizer-ci.com/g/desarrolla2/kata1/)
 
 
 ## License
