@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% spaceless %}
+<html lang="en">
+<header>
+  <link href="/assets/vendor/bootstrap-css/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="author" href="/humans.txt"/>
+  <meta name="robots" content="noindex, nofollow">
+</header>
+<body>
+<div class="container" style="padding-top: 20px;">
+  <div class="row">
+    <div class="col-md-12 text-right">
+      {% if app_user %}
+        <p>Wellcome "{{ app_user }}"</p>
+        <p><a href="/logout">close session</a></p>
+      {% endif %}
+    </div>
+  </div>
+  {% block content %}
+  {% endblock %}
+</div>
+</body>
+</html>
+{% endspaceless %}

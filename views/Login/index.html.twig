@@ -1,0 +1,21 @@
+{% extends 'layout.html.twig' %}
+{% block content %}
+  <div class="row">
+    <div class="col-md-offset-4 col-md-4">
+      <h1>Login Page</h1>
+      {% if error is defined %}
+        <div class="alert alert-danger">
+          <strong>Error!</strong> {{ error }}
+        </div>
+      {% endif %}
+      <form action="/login" method="post">
+        <label for="name" class="sr-only">User Name</label>
+        <input type="text" id="name" name="name" class="form-control" placeholder="Your user name" required autofocus>
+        <label for="password" class="sr-only">Password</label>
+        <input type="password" id="password" name="password" class="form-control" placeholder="Your password" required
+               style="margin-top: 10px">
+        <button class="btnbtn-primary" type="submit" style="margin-top: 10px">Sign in</button>
+      </form>
+    </div>
+  </div>
+{% endblock %}

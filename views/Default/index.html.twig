@@ -1,0 +1,14 @@
+{% extends 'layout.html.twig' %}
+{% block content %}
+  <h1>Home page</h1>
+  {% if app_user %}
+    <h2>Pages</h2>
+    <ul>
+      <li><a href="/page/1">PAGE 1</a></li>
+      <li><a href="/page/2">PAGE 2</a></li>
+      <li><a href="/page/3">PAGE 3</a></li>
+    </ul>
+  {% else %}
+    <p>You can go to <a href="/login">Login page</a></p>
+  {% endif %}
+{% endblock %}

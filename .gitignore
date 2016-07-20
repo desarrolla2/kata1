@@ -1,0 +1,5 @@
+/build
+/var/cache
+/web/assets/vendor
+/vendor
+/phpunit.xml

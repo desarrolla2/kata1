@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="Kata 1" default="phpunit">
+
+    <target name="composer"
+            description="Composer install">
+        <exec executable="composer">
+            <arg value="install"/>
+        </exec>
+    </target>
+
+    <target name="phpunit"
+            description="Run unit tests using PHPUnit">
+        <exec executable="vendor/bin/phpunit">
+            <arg value="-c"/>
+            <arg value="phpunit.xml.dist"/>
+        </exec>
+    </target>
+
+    <target name="cs" description="">
+        <parallel>
+            <exec executable="php-cs-fixer">
+                <arg line="fix src --level=symfony"/>
+            </exec>
+            <exec executable="php-cs-fixer">
+                <arg line="fix tests --level=symfony"/>
+            </exec>
+        </parallel>
+        <parallel>
+            <exec executable="php-formatter">
+                <arg line="formatter:header:fix src"/>
+            </exec>
+            <exec executable="php-formatter">
+                <arg line="formatter:header:fix tests"/>
+            </exec>
+        </parallel>
+        <parallel>
+            <exec executable="php-formatter">
+                <arg line="formatter:use:sort src"/>
+            </exec>
+            <exec executable="php-formatter">
+                <arg line="formatter:use:sort tests"/>
+            </exec>
+        </parallel>
+    </target>
+</project>
