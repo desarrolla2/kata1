@@ -1,5 +1,5 @@
 {
-  "name": "dgonzalez/kata1",
+  "name": "desarrolla2/kata1",
   "require": {
     "php": ">=5.6.0",
     "pimple/pimple": "^3.0",
