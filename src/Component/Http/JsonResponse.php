@@ -25,7 +25,7 @@ class JsonResponse extends Response
      */
     public function __construct($content = '', $status = self::HTTP_OK, array $headers = [])
     {
-        return parent::__construct(
+        parent::__construct(
             json_encode($content),
             $status,
             array_merge(
