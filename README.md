@@ -2,6 +2,8 @@
 
 A code kata is an exercise in programming which helps a programmer hone their skills through practice and repetition. The term was probably first coined by Dave Thomas, co-author of the book The Pragmatic Programmer, in a bow to the Japanese concept of kata in the martial arts.
 
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/161c9238-ff2e-410a-aeff-7de8fbb23518/big.png)](https://insight.sensiolabs.com/projects/161c9238-ff2e-410a-aeff-7de8fbb23518)
+
 [![Build Status](https://travis-ci.org/desarrolla2/kata1.svg?branch=master)](https://travis-ci.org/desarrolla2/kata1)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/desarrolla2/kata1/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/desarrolla2/kata1/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/desarrolla2/kata1/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/desarrolla2/kata1/?branch=master)
@@ -43,7 +45,7 @@ or you can view travis-ci results [here](https://travis-ci.org/desarrolla2/kata1
 
 ## Coding Style
 
-We use Symfony2 (Coding Standards)[http://symfony.com/doc/current/contributing/code/standards.html] you can fix your code running before send your PR 
+We use Symfony2 [Coding Standards](http://symfony.com/doc/current/contributing/code/standards.html) you can fix your code running before send your PR 
 
 ```bash
 ant cs
