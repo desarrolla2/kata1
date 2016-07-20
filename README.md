@@ -2,8 +2,10 @@
 
 A code kata is an exercise in programming which helps a programmer hone their skills through practice and repetition. The term was probably first coined by Dave Thomas, co-author of the book The Pragmatic Programmer, in a bow to the Japanese concept of kata in the martial arts.
 
+[![Build Status](https://travis-ci.org/desarrolla2/kata1.svg?branch=master)](https://travis-ci.org/desarrolla2/kata1)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/desarrolla2/kata1/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/desarrolla2/kata1/?branch=master)
-
+[![Code Coverage](https://scrutinizer-ci.com/g/desarrolla2/kata1/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/desarrolla2/kata1/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/desarrolla2/kata1/badges/build.png?b=master)](https://scrutinizer-ci.com/g/desarrolla2/kata1/build-status/master)
 
 ## Installation
 
