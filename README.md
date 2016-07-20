@@ -4,9 +4,9 @@ A code kata is an exercise in programming which helps a programmer hone their sk
 
 ## Installation
 
-Requires PHP 5.4 or newer.
+> **Requires PHP 5.6 or newer.**
 
-You need install [Composer](http://getcomposer.org/) and [Bower](https://bower.io/)
+You need [Composer](http://getcomposer.org/) and [Bower](https://bower.io/) to run this project.
 
 First install dependencies
 
