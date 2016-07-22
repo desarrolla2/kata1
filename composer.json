@@ -1,5 +1,7 @@
 {
   "name": "desarrolla2/kata1",
+  "description": "A code kata is an exercise in programming which helps a programmer hone their skills through practice and repetition",
+  "license": "MIT",
   "require": {
     "php": ">=5.6.0",
     "pimple/pimple": "^3.0",

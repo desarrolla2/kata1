@@ -51,7 +51,7 @@ We use Symfony2 [Coding Standards](http://symfony.com/doc/current/contributing/c
 ant cs
 ```
 
-This step requiere [ant](https://ant.apache.org/) in your system
+This step requiere [ant](https://ant.apache.org/) and [php-cs-fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) installed in your system
 
 You can see scrutinizer code rating [here](https://scrutinizer-ci.com/g/desarrolla2/kata1/)
 
