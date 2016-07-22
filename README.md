@@ -4,6 +4,9 @@ A code kata is an exercise in programming which helps a programmer hone their sk
 
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/161c9238-ff2e-410a-aeff-7de8fbb23518/big.png)](https://insight.sensiolabs.com/projects/161c9238-ff2e-410a-aeff-7de8fbb23518)
 
+[![Packagist](https://img.shields.io/packagist/l/desarrolla2/kata1.svg?maxAge=2592000)](https://packagist.org/packages/desarrolla2/kata1)
+[![Packagist](https://img.shields.io/packagist/v/desarrolla2/kata1.svg?maxAge=2592000)](https://packagist.org/packages/desarrolla2/kata1)
+[![Packagist](https://img.shields.io/packagist/dt/desarrolla2/kata1.svg?maxAge=2592000)](https://packagist.org/packages/desarrolla2/kata1)
 [![Build Status](https://travis-ci.org/desarrolla2/kata1.svg?branch=master)](https://travis-ci.org/desarrolla2/kata1)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/desarrolla2/kata1/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/desarrolla2/kata1/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/desarrolla2/kata1/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/desarrolla2/kata1/?branch=master)
